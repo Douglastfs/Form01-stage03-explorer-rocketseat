@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e5e5e5;
+}
+
+body::before {
+  content: '';
+  background: #535971;
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+h2,
+legend,
+button {
+  font-family: 'Staatliches', cursive;
+}
+
+header {
+  margin-top: 140px;
+}
+
+header h2 {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 417px;
+  height: 46px;
+  color: #ffffff;
+  margin-bottom: 58px;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  margin-bottom: 30px;
+}
+
+.fieldset-wrapper h4 {
+  margin-bottom: 8px;
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+}
+
+legend {
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6f0;
+  margin-bottom: 36px;
+}
+
+.inputs-wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#student-name {
+  margin-right: 22px;
+}
+
+#student-name,
+#student-lastname {
+  width: 300px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input {
+  background: #fafafc;
+  height: 56px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #737178;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #737178;
+  margin-left: 8px;
+}
+
+#first-mentorship-date,
+#second-mentorship-date {
+  width: 300px;
+  padding: 0 20px;
+  font-size: 20px;
+  margin-right: 32px;
+}
+
+#first-mentorship-das,
+#second-mentorship-das {
+  margin-right: 10px;
+}
+
+#first-mentorship-das,
+#first-mentorship-ate,
+#second-mentorship-das,
+#second-mentorship-ate {
+  width: 140px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 366px;
+}
+
+footer button {
+  border: none;
+  background: #ff5374;
+  border-radius: 20px;
+  height: 55.65px;
+  width: 608px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+footer button:hover {
+  cursor: pointer;
+  transition: 150ms;
+  background: #c92b4a;
+}
